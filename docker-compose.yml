@@ -1,0 +1,6 @@
+docker-container-1:
+  build: docker-container-1
+  volumes_from:
+   - docker-container-2
+docker-container-2:
+  build: docker-container-2
